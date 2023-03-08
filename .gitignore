@@ -1,0 +1,8 @@
+*.o
+cachegrind.*
+callgrind.*
+*.out
+main
+debug
+*.a
+test.*
