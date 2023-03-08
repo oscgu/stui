@@ -2,6 +2,18 @@
 
 ISO & POSIX Compliant Simple Terminal UI
 
+## Building
+
+Just run `make`
+
+## Compiling with the lib
+
+Make sure to compile with the following options:
+
+`-L. --lstui`
+
+The `.` is the directory to search in for the lib (current)
+
 ## Coloring Text
 
 Using the pretty struct:
