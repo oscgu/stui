@@ -8,7 +8,7 @@ Just run `make`
 
 ## Compiling with the lib
 
-Make sure to compile with the following options:
+Make sure to use the following options:
 
 `-L. --lstui`
 
@@ -40,7 +40,7 @@ main() {
 ```
 ![prettystruct](https://user-images.githubusercontent.com/94227101/223873232-aab957f3-dc45-42aa-97e6-759db14a9cff.png)
 
-Usint prettyprint:
+Using prettyprint:
 ```c
 #include "text.h"
 #include <stdio.h>
