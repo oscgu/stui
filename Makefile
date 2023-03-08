@@ -6,8 +6,8 @@ OBJ = text.o
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-stui: $(OBJ)
-	ar rcs lib$@.a $^
+libstui.a: $(OBJ)
+	ar rcs $@ $^
 
 debug: $(OBJ) test.c
 	$(CC) -o $@ $^ $(CFLAGS) -L. -lstui -pg
