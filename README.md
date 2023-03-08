@@ -5,7 +5,6 @@ ISO & POSIX Compliant Simple Terminal UI
 ## Coloring Text
 
 Using the pretty struct:
-
 ```c
 #include "text.h"
 #include <stdio.h>
@@ -27,9 +26,9 @@ main() {
         free(pretty);
 }
 ```
+![prettystruct](https://user-images.githubusercontent.com/94227101/223873232-aab957f3-dc45-42aa-97e6-759db14a9cff.png)
 
 Usint prettyprint:
-
 ```c
 #include "text.h"
 #include <stdio.h>
@@ -41,5 +40,6 @@ main() {
         pprintf(text, YELLOW, RED, BOLD);
 }
 ```
+![prettyprint](https://user-images.githubusercontent.com/94227101/223873284-8bae93f3-376f-4ee0-a32c-3c3d6972ffe3.png)
 
-More to come...
+More to come soon...
